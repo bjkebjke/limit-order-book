@@ -70,8 +70,10 @@ public class LimitTree {
         }
         this.orderMap.remove(id);
     }
+    
+    public void updateOrderQuantity(int quantity, int orderID) {
 
-    //public void updateOrder()
+    }
 
     public double maxPrice() {
         if(limitTree.size() > 0) {
@@ -107,6 +109,10 @@ public class LimitTree {
 
     public int getVolume() {
         return this.volume;
+    }
+
+    public int getNumOrders() {
+        return orderMap.size();
     }
 
 

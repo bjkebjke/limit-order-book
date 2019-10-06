@@ -35,7 +35,7 @@ public class Order {
         return userID;
     }
 
-    public boolean isBuyOrSell() {
+    public boolean isBuy() {
         return buyOrSell;
     }
 

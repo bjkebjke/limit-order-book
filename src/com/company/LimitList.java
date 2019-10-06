@@ -74,6 +74,14 @@ public class LimitList implements Iterable<Order>, Iterator<Order> {
         length -= 1;
     }
 
+    public Order getHeadOrder() {
+        return headOrder;
+    }
+
+    public Order getTailOrder() {
+        return tailOrder;
+    }
+
     public int getLength() {
         return length;
     }
