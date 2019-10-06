@@ -22,6 +22,11 @@ public class Order {
         this.entryTime = entryTime;
     }
 
+    public void updateQuantity(int qty, int time) {
+        parentList.setVolume(parentList.getVolume() - (this.quantity - qty));
+        this.quantity = qty;
+    }
+
     // Getter methods
     public double getPrice() {
         return price;

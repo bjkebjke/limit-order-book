@@ -70,9 +70,12 @@ public class LimitTree {
         }
         this.orderMap.remove(id);
     }
-    
-    public void updateOrderQuantity(int quantity, int orderID) {
 
+    public void updateOrderQuantity(int quantity, int orderID) {
+        Order o = orderMap.get(orderID);
+        int originalVolume = o.getQuantity();
+        o.updateQuantity(quantity, o.getEntryTime());
+        this.volume += (quantity - originalVolume);
     }
 
     public double maxPrice() {

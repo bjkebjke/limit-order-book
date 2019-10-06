@@ -18,7 +18,6 @@ public class OrderBook {
 
     public void processOrder(Order order) {
         boolean isLimit = order.isLimit();
-
         if(isLimit) {
             processLimitOrder(order);
         } else {
@@ -32,10 +31,10 @@ public class OrderBook {
         double price = order.getPrice();
 
         if(isBuy) { //Is a buy order
-            while(this.sells.getNumOrders() > 0 &&
-                    quantityRemaining > 0 &&
-                    price >= sells.minPrice()) {
+            while(this.sells.getNumOrders() > 0 && quantityRemaining > 0 && price >= sells.minPrice()) {
                 //process the orders at minimum price
+                LimitList minSellLimit = this.sells.getMinLimitList();
+                quantityRemaining = transactOrderList(minSellLimit, quantityRemaining, order);
             }
             //add remaining volume to tree
             if(quantityRemaining > 0) {
@@ -43,10 +42,10 @@ public class OrderBook {
                 this.buys.insertOrder(order);
             }
         } else { // Is a sell order
-            while(this.buys.getNumOrders() > 0 &&
-                    quantityRemaining > 0 &&
-                    price <= buys.maxPrice()) {
+            while(this.buys.getNumOrders() > 0 && quantityRemaining > 0 && price <= buys.maxPrice()) {
                 //process the orders at max price
+                LimitList maxBuyLimit = this.buys.getMaxLimitList();
+                quantityRemaining = transactOrderList(maxBuyLimit, quantityRemaining, order);
             }
             //add remaining volume to tree
             if(quantityRemaining > 0) {
@@ -59,24 +58,24 @@ public class OrderBook {
     public void processMarketOrder(Order order) {
         boolean isBuy = order.isBuy();
         int quantityRemaining = order.getQuantity();
-        double price = order.getPrice();
 
         if(isBuy) { //Is a buy order
-            while(this.sells.getNumOrders() > 0 &&
-                    quantityRemaining > 0 &&
-                    price >= sells.minPrice()) {
+            while(quantityRemaining > 0 && this.sells.getNumOrders() > 0) {
                 //process the orders at minimum price
+                LimitList minSellLimit = this.sells.getMinLimitList();
+                quantityRemaining = transactOrderList(minSellLimit, quantityRemaining, order);
             }
         } else { // Is a sell order
-            while(this.buys.getNumOrders() > 0 &&
-                    quantityRemaining > 0 &&
-                    price <= buys.maxPrice()) {
+            while(quantityRemaining > 0 && this.buys.getNumOrders() > 0) {
                 //process the orders at max price
+                LimitList maxBuyLimit = this.buys.getMaxLimitList();
+                quantityRemaining = transactOrderList(maxBuyLimit, quantityRemaining, order);
+
             }
         }
     }
     // TODO: need to change trade id
-    public void transactOrderList(LimitList ordersAtLimit, int quantityRemaining, Order newOrder) {
+    public int transactOrderList(LimitList ordersAtLimit, int quantityRemaining, Order newOrder) {
         boolean isBuy = newOrder.isBuy();
         int time = newOrder.getEntryTime();
 
@@ -87,6 +86,7 @@ public class OrderBook {
             if(isBuy) { //modify sells
                 if(quantityRemaining < headOrder.getQuantity()) { //update
                     quantityTraded = quantityRemaining;
+                    this.sells.updateOrderQuantity(headOrder.getQuantity() - quantityRemaining, headOrder.getOrderID());
 
                 } else { //remove
                     quantityTraded = headOrder.getQuantity();
@@ -96,6 +96,7 @@ public class OrderBook {
             } else { //modify buys
                 if(quantityRemaining < headOrder.getQuantity()) { //update
                     quantityTraded = quantityRemaining;
+                    this.buys.updateOrderQuantity(headOrder.getQuantity() - quantityRemaining, headOrder.getOrderID());
 
                 } else { //remove
                     quantityTraded = headOrder.getQuantity();
@@ -106,6 +107,7 @@ public class OrderBook {
             quantityRemaining -= quantityTraded;
             this.trades.add(newTrade);
         }
+        return quantityRemaining;
     }
 
 }

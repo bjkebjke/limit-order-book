@@ -85,4 +85,12 @@ public class LimitList implements Iterable<Order>, Iterator<Order> {
     public int getLength() {
         return length;
     }
+
+    public void setVolume(int volume) {
+        this.volume = volume;
+    }
+
+    public int getVolume() {
+        return volume;
+    }
 }
