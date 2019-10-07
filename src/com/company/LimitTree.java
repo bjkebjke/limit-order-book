@@ -1,8 +1,6 @@
 package com.company;
 
-import java.util.NoSuchElementException;
-import java.util.TreeMap;
-import java.util.HashMap;
+import java.util.*;
 
 public class LimitTree {
     TreeMap<Double, LimitList> limitTree = new TreeMap<Double, LimitList>();
@@ -108,6 +106,36 @@ public class LimitTree {
         } else {
             throw new NoSuchElementException();
         }
+    }
+
+    public List<Order> getMinimumNOrders(int n) {
+        ArrayList<Order> ret = new ArrayList<>();
+        outer: for(Map.Entry<Double, LimitList> entry: limitTree.entrySet()) {
+            LimitList list = entry.getValue();
+            for(Order o : list) {
+                ret.add(o);
+                if(ret.size() == n) {
+                    break outer;
+                }
+            }
+        }
+
+        return ret;
+    }
+
+    public List<Order> getMaximumNOrders(int n) {
+        ArrayList<Order> ret = new ArrayList<>();
+        outer: for(Map.Entry<Double, LimitList> entry: limitTree.descendingMap().entrySet()) {
+            LimitList list = entry.getValue();
+            for(Order o : list) {
+                ret.add(o);
+                if(ret.size() == n) {
+                    break outer;
+                }
+            }
+        }
+
+        return ret;
     }
 
     public int getVolume() {

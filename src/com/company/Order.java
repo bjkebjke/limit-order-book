@@ -13,13 +13,14 @@ public class Order {
     Order nextOrder;
     LimitList parentList;
 
-    public Order(int id, int userID, boolean buyOrSell, int quantity, boolean limit, int entryTime) {
+    public Order(int id, int userID, boolean buyOrSell, int quantity, double price, boolean limit, int entryTime) {
         this.orderID = id;
         this.userID = userID;
         this.buyOrSell = buyOrSell;
         this.quantity = quantity;
         this.limit = limit;
         this.entryTime = entryTime;
+        this.price = price;
     }
 
     public void updateQuantity(int qty, int time) {

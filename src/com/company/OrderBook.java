@@ -110,4 +110,15 @@ public class OrderBook {
         return quantityRemaining;
     }
 
+    public ArrayList<Trade> getTrades() {
+        return trades;
+    }
+
+    public LimitTree getBuys() {
+        return buys;
+    }
+
+    public LimitTree getSells() {
+        return sells;
+    }
 }
