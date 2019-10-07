@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba2c4405-6beb-4dc2-a97d-8917ccee31b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/com/company/LimitTreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/company/OrderBookTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/LimitTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LimitTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/OrderBookGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/OrderBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/OrderBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/OrderBookGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/OrderBookGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/company/LimitTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/LimitTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/company/OrderBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/OrderBookTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +30,7 @@
         <counts>
           <entry key="form" value="3" />
           <entry key="iml" value="2" />
-          <entry key="java" value="16" />
+          <entry key="java" value="19" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -39,19 +38,19 @@
         <counts>
           <entry key="GUI_DESIGNER_FORM" value="3" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="19" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="34" />
-          <entry key="java" value="8377" />
+          <entry key="java" value="10190" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8377" />
+          <entry key="JAVA" value="10190" />
           <entry key="PLAIN_TEXT" value="34" />
         </counts>
       </usages-collector>
@@ -59,15 +58,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/OrderBookGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+            <state relative-caret-position="629">
+              <caret line="124" column="23" lean-forward="true" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#3592#3593#0" expanded="true" />
+                <element signature="e#3668#3669#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="249">
+              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -85,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/OrderBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1853">
-              <caret line="117" column="20" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
+            <state relative-caret-position="374">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
                 <element signature="e#4611#4612#0" expanded="true" />
                 <element signature="e#4640#4641#0" expanded="true" />
@@ -100,19 +99,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/company/OrderBookTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/LimitTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="668">
-              <caret line="136" selection-start-line="136" selection-end-line="136" />
+            <state relative-caret-position="-85">
+              <caret line="87" column="34" lean-forward="true" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
               <folding>
                 <element signature="e#610#611#0" expanded="true" />
                 <element signature="e#652#653#0" expanded="true" />
@@ -128,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/LimitList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="476">
+              <caret line="69" column="45" lean-forward="true" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2386#2387#0" expanded="true" />
@@ -142,26 +132,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/company/LimitTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/limit-order-book.iml">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Trade.java">
+        <entry file="file://$PROJECT_DIR$/test/com/company/LimitListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="51">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/com/company/OrderBookTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -190,20 +186,20 @@
         <option value="$PROJECT_DIR$/src/com/company/lobGUI.form" />
         <option value="$PROJECT_DIR$/src/com/company/lobGUI.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/test/com/company/LimitTreeTest.java" />
-        <option value="$PROJECT_DIR$/test/com/company/OrderBookTest.java" />
-        <option value="$PROJECT_DIR$/src/com/company/OrderBook.java" />
         <option value="$PROJECT_DIR$/src/com/company/LimitTree.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Order.java" />
         <option value="$PROJECT_DIR$/src/com/company/OrderBookGUI.java" />
+        <option value="$PROJECT_DIR$/src/com/company/OrderBook.java" />
+        <option value="$PROJECT_DIR$/test/com/company/LimitTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Order.java" />
+        <option value="$PROJECT_DIR$/test/com/company/OrderBookTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="773" />
-    <option name="y" value="-13" />
-    <option name="width" value="854" />
-    <option name="height" value="1017" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="856" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -220,6 +216,17 @@
             <path>
               <item name="limit-order-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="limit-order-book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="limit-order-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="limit-order-book" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="limit-order-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="limit-order-book" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="limit-order-book" type="b2602c69:ProjectViewProjectNode" />
@@ -243,7 +250,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="403" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570409188487" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570422633271" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -271,19 +278,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.OrderBookGUI" />
-      <module name="limit-order-book" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lobGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.lobGUI" />
+  <component name="RunManager" selected="JUnit.OrderBookTest.processBidsAndAsksSamePrice">
+    <configuration name="LimitTreeTest.getMaxLimitList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="limit-order-book" />
       <extension name="coverage">
         <pattern>
@@ -291,18 +287,92 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.LimitTreeTest" />
+      <option name="METHOD_NAME" value="getMaxLimitList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LimitTreeTest.getMinLimitList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="limit-order-book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.LimitTreeTest" />
+      <option name="METHOD_NAME" value="getMinLimitList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LimitTreeTest.insertMultipleOrdersAndRemoveTwoOrdersByID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="limit-order-book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.LimitTreeTest" />
+      <option name="METHOD_NAME" value="insertMultipleOrdersAndRemoveTwoOrdersByID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderBookTest.processBidsAndAsksSamePrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="limit-order-book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.OrderBookTest" />
+      <option name="METHOD_NAME" value="processBidsAndAsksSamePrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderBookTest.processConsecutiveBuyOrdersSamePrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="limit-order-book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.OrderBookTest" />
+      <option name="METHOD_NAME" value="processConsecutiveBuyOrdersSamePrice" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.lobGUI" />
+      <item itemvalue="JUnit.OrderBookTest.processConsecutiveBuyOrdersSamePrice" />
+      <item itemvalue="JUnit.LimitTreeTest.insertMultipleOrdersAndRemoveTwoOrdersByID" />
+      <item itemvalue="JUnit.LimitTreeTest.getMaxLimitList" />
+      <item itemvalue="JUnit.LimitTreeTest.getMinLimitList" />
+      <item itemvalue="JUnit.OrderBookTest.processBidsAndAsksSamePrice" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.lobGUI" />
+        <item itemvalue="JUnit.OrderBookTest.processBidsAndAsksSamePrice" />
+        <item itemvalue="JUnit.OrderBookTest.processConsecutiveBuyOrdersSamePrice" />
+        <item itemvalue="JUnit.LimitTreeTest.getMaxLimitList" />
+        <item itemvalue="JUnit.LimitTreeTest.getMinLimitList" />
+        <item itemvalue="JUnit.LimitTreeTest.insertMultipleOrdersAndRemoveTwoOrdersByID" />
       </list>
     </recent_temporary>
   </component>
@@ -319,11 +389,43 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="LimitTreeTest_insertMultipleOrdersAndRemoveTwoOrdersByID - 2019.10.06 at 23h 02m 14s.xml">
+      <configuration name="LimitTreeTest.insertMultipleOrdersAndRemoveTwoOrdersByID" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LimitTreeTest_getMaxLimitList - 2019.10.06 at 23h 07m 08s.xml">
+      <configuration name="LimitTreeTest.getMaxLimitList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LimitTreeTest_getMinLimitList - 2019.10.06 at 23h 08m 55s.xml">
+      <configuration name="LimitTreeTest.getMinLimitList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LimitTreeTest_getMinLimitList - 2019.10.06 at 23h 12m 57s.xml">
+      <configuration name="LimitTreeTest.getMinLimitList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LimitTreeTest_getMinLimitList - 2019.10.06 at 23h 14m 19s.xml">
+      <configuration name="LimitTreeTest.getMinLimitList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LimitTreeTest_getMaxLimitList - 2019.10.06 at 23h 14m 39s.xml">
+      <configuration name="LimitTreeTest.getMaxLimitList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderBookTest_processConsecutiveBuyOrdersSamePrice - 2019.10.06 at 23h 17m 54s.xml">
+      <configuration name="OrderBookTest.processConsecutiveBuyOrdersSamePrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderBookTest_processConsecutiveBuyOrdersSamePrice - 2019.10.06 at 23h 20m 49s.xml">
+      <configuration name="OrderBookTest.processConsecutiveBuyOrdersSamePrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderBookTest_processConsecutiveBuyOrdersSamePrice - 2019.10.06 at 23h 22m 49s.xml">
+      <configuration name="OrderBookTest.processConsecutiveBuyOrdersSamePrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderBookTest_processBidsAndAsksSamePrice - 2019.10.06 at 23h 28m 43s.xml">
+      <configuration name="OrderBookTest.processBidsAndAsksSamePrice" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14242055" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14242055" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -332,7 +434,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295583" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32847533" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -358,22 +460,33 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/company/LimitListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/OrderBookGUI/lobgui.java" />
     <entry file="file://$PROJECT_DIR$/src/OrderBookGUI/lobgui.form" />
     <entry file="file://$PROJECT_DIR$/src/com/company/test.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/test.form" />
     <entry file="file://$PROJECT_DIR$/src/com/company/lobGUI.form">
       <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/lobGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="234" selection-start-line="234" selection-end-line="234" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/limit-order-book.iml">
       <provider selected="true" editor-type-id="text-editor">
@@ -389,61 +502,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/lobGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/LimitList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2386#2387#0" expanded="true" />
-            <element signature="e#2422#2423#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/company/LimitTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/LimitTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
-          <folding>
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#3480#3481#0" expanded="true" />
-            <element signature="e#3514#3515#0" expanded="true" />
-            <element signature="e#3547#3548#0" expanded="true" />
-            <element signature="e#3585#3586#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/company/OrderBookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/OrderBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="117" column="20" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
+        <state relative-caret-position="374">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="e#4611#4612#0" expanded="true" />
             <element signature="e#4640#4641#0" expanded="true" />
@@ -457,20 +519,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="249">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/LimitList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="69" column="45" lean-forward="true" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2386#2387#0" expanded="true" />
+            <element signature="e#2422#2423#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/OrderBookGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+        <state relative-caret-position="629">
+          <caret line="124" column="23" lean-forward="true" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#3592#3593#0" expanded="true" />
+            <element signature="e#3668#3669#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/LimitTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="87" column="34" lean-forward="true" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+          <folding>
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#3480#3481#0" expanded="true" />
+            <element signature="e#3514#3515#0" expanded="true" />
+            <element signature="e#3547#3548#0" expanded="true" />
+            <element signature="e#3585#3586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/company/LimitListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/company/LimitTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/company/OrderBookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
         </state>
       </provider>
     </entry>

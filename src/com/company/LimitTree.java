@@ -108,7 +108,7 @@ public class LimitTree {
         }
     }
 
-    public List<Order> getMinimumNOrders(int n) {
+    public ArrayList<Order> getMinimumNOrders(int n) {
         ArrayList<Order> ret = new ArrayList<>();
         outer: for(Map.Entry<Double, LimitList> entry: limitTree.entrySet()) {
             LimitList list = entry.getValue();
@@ -123,7 +123,7 @@ public class LimitTree {
         return ret;
     }
 
-    public List<Order> getMaximumNOrders(int n) {
+    public ArrayList<Order> getMaximumNOrders(int n) {
         ArrayList<Order> ret = new ArrayList<>();
         outer: for(Map.Entry<Double, LimitList> entry: limitTree.descendingMap().entrySet()) {
             LimitList list = entry.getValue();

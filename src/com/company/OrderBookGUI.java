@@ -2,15 +2,18 @@ package com.company;
 
 import java.awt.*;       // Using layouts
 import java.awt.event.*; // Using AWT event classes and listener interfaces
+import java.util.ArrayList;
 import javax.swing.*;
 
 public class OrderBookGUI extends JFrame {
     private JTextField userID, buyOrSell, quantity, price, limitOrMarket;
-    private OrderBook ob;
+    private JList<Order> bids, asks;
+    private OrderBook ob = new OrderBook();
     private static int orderNum = 0;
 
 
     public OrderBookGUI() {
+        //OrderBook ob = new OrderBook();
         Container cp = getContentPane();
 
         Panel orderInput = new Panel(new FlowLayout());
@@ -55,8 +58,29 @@ public class OrderBookGUI extends JFrame {
         orderInput.add(lomInput);
         orderInput.add(submitButton);
 
+        /*
+        *
+        *   Render orderbook buys and sells here
+        *
+         */
         Panel orderBookDisplay = new Panel(new FlowLayout());
 
+        Panel bidsBox = new Panel();
+        bidsBox.setLayout(new BoxLayout(bidsBox, BoxLayout.PAGE_AXIS));
+        JLabel bLabel = new JLabel("Bids");
+        bids = new JList<Order>();
+        bidsBox.add(bLabel);
+        bidsBox.add(bids);
+
+        Panel asksBox = new Panel();
+        asksBox.setLayout(new BoxLayout(asksBox, BoxLayout.PAGE_AXIS));
+        JLabel aLabel = new JLabel("Asks");
+        asks = new JList<Order>();
+        asksBox.add(aLabel);
+        asksBox.add(asks);
+
+        orderBookDisplay.add(bidsBox);
+        orderBookDisplay.add(asksBox);
 
         Panel trades = new Panel(new FlowLayout());
 
@@ -98,8 +122,18 @@ public class OrderBookGUI extends JFrame {
             }
 
             Order o = new Order(orderNum, userId, bosBool, qty, prc, lomBool, 0);
+            orderNum++;
 
             ob.processOrder(o);
+
+            ArrayList<Order> topAsks = ob.getSells().getMinimumNOrders(20);
+            ArrayList<Order> topBids = ob.getBuys().getMinimumNOrders(20);
+
+            Order[] tAsksArray = new Order[topAsks.size()];
+            Order[] tBidsArray = new Order[topBids.size()];
+
+            bids.setListData(topBids.toArray(tBidsArray));
+            asks.setListData(topAsks.toArray(tAsksArray));
         }
     }
 

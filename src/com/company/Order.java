@@ -13,8 +13,8 @@ public class Order {
     Order nextOrder;
     LimitList parentList;
 
-    public Order(int id, int userID, boolean buyOrSell, int quantity, double price, boolean limit, int entryTime) {
-        this.orderID = id;
+    public Order(int orderID, int userID, boolean buyOrSell, int quantity, double price, boolean limit, int entryTime) {
+        this.orderID = orderID;
         this.userID = userID;
         this.buyOrSell = buyOrSell;
         this.quantity = quantity;
@@ -26,6 +26,12 @@ public class Order {
     public void updateQuantity(int qty, int time) {
         parentList.setVolume(parentList.getVolume() - (this.quantity - qty));
         this.quantity = qty;
+    }
+
+    @Override
+    public String toString() {
+        return Integer.toString(quantity) + "\t@\t" + Double.toString(price) +
+                "\tt=" + Integer.toString(userID);
     }
 
     // Getter methods
